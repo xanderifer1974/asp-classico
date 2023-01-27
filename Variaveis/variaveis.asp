@@ -9,14 +9,16 @@
 <body>
    <!--
     No ASP clássico, podemos declarar uma variável utilizando o Dim,
-    mas também podemos declarar uma variável sem a necessidade do Dim.
+    mas também podemos declarar uma variável sem a necessidade do Dim.    
    !-->
     <%
       
-      Dim nome 
-      nome = "João Silva"
+      Dim nome       
+      nome = "João"
+      
+      sobrenome = "Silva"
 
-      Response.Write nome
+      Response.Write nome &" "& sobrenome
 
     %>
 </body>
