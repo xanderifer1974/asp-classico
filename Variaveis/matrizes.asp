@@ -21,9 +21,9 @@
       frutas(2) = "pera"     
       
 
-      Response.Write frutas(0) & <br>
-      Response.Write frutas(1) & <br>
-      Response.Write frutas(2) & <br>
+      Response.Write frutas(0) & "<br>"
+      Response.Write frutas(1) & "<br>"
+      Response.Write frutas(2) & "<br>"
 
     %>
 </body>

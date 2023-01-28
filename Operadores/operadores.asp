@@ -37,19 +37,19 @@
       y = 10
       nome = "Alexandre"
       sobrenome ="Ferreira"
-      Response.Write(x + 2) & <br>
-      Response.Write (10 - x) & <br>
-      Response.Write (10 * x) & <br>
-      Response.Write (10 / x) & <br>
-      Response.Write (x = 2) & <br>
-      Response.Write (x <> 10) & <br>
-      Response.Write (x > 10) & <br>
-      Response.Write (x < 10) & <br>
-      Response.Write (x >= 10) & <br>
-      Response.Write (x > 10  and y < 1) & <br>
-      Response.Write (x > 10  or y < 1) & <br>
-      Response.Write (not (x = y)) & <br>
-      Response.Write (nome & "" & sobrenome) & <br>
+      Response.Write(x + 2) & "<br>"
+      Response.Write (10 - x) & "<br>"
+      Response.Write (10 * x) & "<br>"
+      Response.Write (10 / x) & "<br>"
+      Response.Write (x = 2) & "<br>"
+      Response.Write (x <> 10) & "<br>"
+      Response.Write (x > 10) & "<br>"
+      Response.Write (x < 10) & "<br>"
+      Response.Write (x >= 10) & "<br>"
+      Response.Write (x > 10  and y < 1) & "<br>"
+      Response.Write (x > 10  or y < 1) & "<br>"
+      Response.Write (not (x = y)) & "<br>"
+      Response.Write (nome & "" & sobrenome) & "<br>"
      
 
     %>
