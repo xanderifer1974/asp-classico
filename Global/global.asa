@@ -1,0 +1,11 @@
+<script language="vbscript" runat="server">
+'Arquivo de configuração do Asp'
+'Não deve ser utilizada tag do ASP no global, mas sim a tag'
+'de script com o parâmetro language=vbscript e runat=server'
+'Esta variáveis criadas, podem ser chamadas normalmente nos documentos ASP'
+
+sub Session_OnStart
+    Session("inicio") = Now()
+end sub
+
+</script>
